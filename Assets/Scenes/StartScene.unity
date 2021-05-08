@@ -667,8 +667,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1576843983}
-        m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
-        m_MethodName: startButton
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: AboutButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -800,8 +800,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1576843983}
-        m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
-        m_MethodName: startButton
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: TutorialButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -895,7 +895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b018ba97722248968864d1913463cf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutorialUrl: 
+  tutorialUrl: https://youtube.com
 --- !u!1 &1611664343
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,8 +980,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1576843983}
-        m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
-        m_MethodName: startButton
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: StartButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

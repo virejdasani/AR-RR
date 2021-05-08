@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartMenuController : MonoBehaviour
+public class ButtonController : MonoBehaviour
 {
     // This url is entered in the unity editor directly
     public string tutorialUrl;
