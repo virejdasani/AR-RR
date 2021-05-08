@@ -1,12 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ButtonController : MonoBehaviour
 {
-    // This url is entered in the unity editor directly
+    // These urls are entered in the unity editor directly
     public string tutorialUrl;
+    public string issuesUrl;
 
     // The following functions are all attached to the buttons onClick methods in the editor
 
@@ -29,6 +28,11 @@ public class ButtonController : MonoBehaviour
     public void BackToStart()
     {
         SceneManager.LoadScene("StartScene");
+    }
+
+    public void ReportIssues()
+    {
+        Application.OpenURL(issuesUrl);
     }
 
 }

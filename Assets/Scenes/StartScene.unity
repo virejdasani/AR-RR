@@ -619,7 +619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: -132}
+  m_AnchoredPosition: {x: 9, y: -132}
   m_SizeDelta: {x: 137.0175, y: 46.3994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075330594
@@ -752,7 +752,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: -205}
+  m_AnchoredPosition: {x: 9, y: -205}
   m_SizeDelta: {x: 137.0175, y: 46.3994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1223922067
@@ -896,6 +896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tutorialUrl: https://youtube.com
+  issuesUrl: 
 --- !u!1 &1611664343
 GameObject:
   m_ObjectHideFlags: 0
