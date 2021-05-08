@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 1154161512}
   - component: {fileID: 1154161514}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -721,6 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b018ba97722248968864d1913463cf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tutorialUrl: 
 --- !u!43 &1315451427
 Mesh:
   m_ObjectHideFlags: 0
@@ -1298,8 +1299,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1154161514}
-        m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
-        m_MethodName: backToStart
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: BackToStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
