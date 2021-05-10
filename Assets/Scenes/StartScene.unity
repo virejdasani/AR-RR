@@ -895,7 +895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b018ba97722248968864d1913463cf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutorialUrl: https://youtube.com
+  tutorialUrl: https://www.youtube.com/channel/UCRzS48bskynAxoI38BFypfQ
   issuesUrl: 
 --- !u!1 &1611664343
 GameObject:
